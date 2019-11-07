@@ -1,0 +1,24 @@
+body{
+  color:#ff85d9;
+  font-family: Rachel;
+  background-color: #f64d33;
+  font-size: 70px;
+  text-align: center;
+  width: 100%;
+}
+<style>
+body{
+  padding-top: 100px
+  padding-bottom: 100px
+  </style>
+  
+}
+h2{
+  color:#white;
+  font-family: TeX Gyre Heros;
+  background-color: f64d33;
+  font-size: 30px;
+  vertical-align: bottom;
+  width: 100%;
+
+}
