@@ -86,14 +86,12 @@ h7{
   position: absolute;
   left: 0px;
   top: 20px;
+}
 
-  h1 {
+  h8 {
     color:#ff85d9;
     font-family: Rachel !important;
-    font-size: 13em;
+    font-size: 30em;
     text-align: center;
     width: 100%
   }
-  a:hover {
-  color: red;
-}
