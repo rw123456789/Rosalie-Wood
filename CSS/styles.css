@@ -75,3 +75,25 @@ h6{
   left: 30px;
   top: 50px;
 }
+
+h7{
+  color: #b2a6ef;
+  font-family: Arial;
+  background-color: f64d33;
+  font-size: 1em;
+  text-align: left;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+
+  h1 {
+    color:#ff85d9;
+    font-family: Rachel !important;
+    font-size: 13em;
+    text-align: center;
+    width: 100%
+  }
+  a:hover {
+  color: red;
+}
