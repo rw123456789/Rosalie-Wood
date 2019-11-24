@@ -16,22 +16,11 @@ body{
   position: relative;
 }
 
---> h1 :hover:after {
-    content: url(../Media/image.png); /* no need for qoutes */
-    display: block;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 10px; /* change this value to one that suits you */
-    top: 56px;
-}
-
-
 h4{
     color:#ff85d9;
     font-family: Rachel !important;
     font-size: 30em;
-    text-align: center;
+    text-align: left;
     width: 100%
   }
 
@@ -46,3 +35,19 @@ h4{
     bottom: 10em;
     border: 10px;
   }
+
+  p2{
+      color:#ff85d9;
+      font-family: Arial;
+      font-size: 600px;
+      position:fixed;
+    }
+
+p2:hover:after {
+        content: url(../Media/profile.png); /* no need for qoutes */
+        display: block;
+        position: absolute;
+        width: 2em;
+        left: 10px; /* change this value to one that suits you */
+        top: 10px;
+    }
