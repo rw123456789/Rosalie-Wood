@@ -16,36 +16,7 @@ body{
   position: relative;
 }
 
-h1 {
-  color:#ff85d9;
-  font-family: Rachel;
-  font-size: 5em;
-  text-align: left;
-  width: 70%
-  left: 30px;
-  top: 0px;
-}
---> !important
-
-h2{
-  color: #ff85d9;
-  font-family: Rachel;
-  background-color: f64d33;
-  font-size: 13em;
-  text-align: center;
-  width: 100%;
-}
-
-h3{
-  color: #ff85d9;
-  font-family:Rachel;
-  background-color: f64d33;
-  font-size: 13em;
-  text-align: center;
-  width: 100%;
-}
-
-h1:hover:after {
+--> h1 :hover:after {
     content: url(../Media/image.png); /* no need for qoutes */
     display: block;
     position: absolute;
@@ -55,46 +26,8 @@ h1:hover:after {
     top: 56px;
 }
 
-h5{
-  color: #b2a6ef;
-  font-family: Arial;
-  font-weight: 700;
-  background-color: f64d33;
-  font-size: 2em;
-  text-align: left;
-  position: absolute;
-  left: 30px;
-  top: 20px;
-  background-color: #4d51fe;
-}
 
-h6{
-  color: #b2a6ef;
-  font-family: Arial;
-  background-color: f64d33;
-  font-size: 1em;
-  text-align: left;
-  width: 100%;
-  position: absolute;
-  left: 30px;
-  top: 50px;
-  background-color: #4d51fe;
-}
-
-h7{
-  color: #b2a6ef;
-  font-family: Arial;
-  background-color: f64d33;
-  font-size: 1em;
-  text-align: left;
-  width: 100%;
-  position: absolute;
-  left: 0px;
-  top: 20px;
-  background-color: #4d51fe;
-}
-
-  h8 {
+h4{
     color:#ff85d9;
     font-family: Rachel !important;
     font-size: 30em;
@@ -106,7 +39,7 @@ h7{
     color:#ff85d9;
     font-family: Arial;
     font-size: 2em;
-    text-align: bottom;
+    text-align: left;
     position: center;
     width: 100%;
     left: 10px;
