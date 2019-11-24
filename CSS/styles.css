@@ -13,7 +13,7 @@ body{
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
-  position: relative;
+  position: absolute;
 }
 
 h4{
@@ -89,3 +89,17 @@ p4:hover:after {
                         left: 10px; /* change this value to one that suits you */
                         top: 10px;
                     }
+p5{
+      color:#ff85d9;
+      font-family: Arial;
+      font-size: 600px;
+      position:fixed;
+    }
+
+p5:hover:after {
+        content: url(../Media/profile2.png); /* no need for qoutes */
+        display: block;
+        position: relative;
+        width: 2em;
+        left: 10px; /* change this value to one that suits you */
+        top: 56px;
