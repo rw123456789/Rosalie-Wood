@@ -1,3 +1,8 @@
+header {
+    position: fixed;
+    top: 0px;
+}
+
 body{
   background-color: #f64d33;
   text-align: center;
@@ -11,19 +16,27 @@ body{
 h1 {
   color:#ff85d9;
   font-family: Rachel !important;
-  font-size: 70px;
+  font-size: 170px;
   text-align: center;
-
+  width: 100%
 }
 
 h2{
-  color: white;
-  font-family: TeX Gyre Heros;
+  color: #ff85d9;
+  font-family: Rachel;
   background-color: f64d33;
-  font-size: 30px;
-  vertical-align: bottom;
+  font-size: 170px;
+  text-align: center;
   width: 100%;
+}
 
+h3{
+  color: #ff85d9;
+  font-family:Rachel;
+  background-color: f64d33;
+  font-size: 170px;
+  text-align: center;
+  width: 100%;
 }
 
 h1:hover:after {
@@ -34,4 +47,13 @@ h1:hover:after {
     height: 10px;
     left: 10px; /* change this value to one that suits you */
     top: 56px;
+}
+
+h5{
+  color: grey;
+  font-family: Rachel;
+  background-color: f64d33;
+  font-size: 40px;
+  text-align: left;
+  width: 100%;
 }
