@@ -57,3 +57,12 @@ h5{
   text-align: left;
   width: 100%;
 }
+
+h6{
+  color: #b2a6ef;
+  font-family: Arial;
+  background-color: f64d33;
+  font-size: 50px;
+  text-align: right;
+  width: 100%;
+}
