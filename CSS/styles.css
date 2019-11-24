@@ -61,9 +61,9 @@ p3{     color:#ff85d9;
         bottom: 10em;
         border: 10px;
     }
-    
+
 p3:hover:after {
-              content: url(../Media/PROBACKTOR.png); /* no need for qoutes */
+              content: url(../Media/PROBACKTOR2.png); /* no need for qoutes */
               display: block;
               position: absolute;
               width: 0em;
