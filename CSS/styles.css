@@ -18,11 +18,14 @@ body{
 
 h1 {
   color:#ff85d9;
-  font-family: Rachel !important;
-  font-size: 13em;
-  text-align: center;
-  width: 100%
+  font-family: Rachel;
+  font-size: 5em;
+  text-align: left;
+  width: 70%
+  left: 30px;
+  top: 0px;
 }
+--> !important
 
 h2{
   color: #ff85d9;
