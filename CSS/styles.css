@@ -103,3 +103,18 @@ p5:hover:after {
         width: 2em;
         left: 10px; /* change this value to one that suits you */
         top: 56px;
+}
+p6{
+              color:#ff85d9;
+              font-family: Arial;
+              font-size: 600px;
+              position:fixed;
+            }
+
+p6:hover:before {
+                content: url(../Media/profile2.png); /* no need for qoutes */
+                display: block;
+                position: relative;
+                width: 2em;
+                left: 50px; /* change this value to one that suits you */
+                top: 90px;
