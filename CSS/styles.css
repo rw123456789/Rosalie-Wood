@@ -70,3 +70,22 @@ p3:hover:after {
               left: 10px; /* change this value to one that suits you */
               top: 10px;
           }
+
+p4{     color:#ff85d9;
+                  font-size: 10em;
+                  text-align: right;
+                  position: center;
+                  width: 100%;
+                  right: 10px;
+                  bottom: 10em;
+                  border: 10px;
+              }
+
+p4:hover:after {
+                        content: url(../Media/P5.png); /* no need for qoutes */
+                        display: block;
+                        position: absolute;
+                        width: 0em;
+                        left: 10px; /* change this value to one that suits you */
+                        top: 10px;
+                    }
