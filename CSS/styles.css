@@ -2,6 +2,10 @@ header {
     position: fixed;
     top: 0px;
 }
+footer {
+    position: fixed;
+    bottom: 10px
+}
 
 body{
   background-color: #f64d33;
@@ -53,7 +57,7 @@ h5{
   color: #b2a6ef;
   font-family: Arial;
   background-color: f64d33;
-  font-size: 50px;
+  font-size: 20px;
   text-align: left;
   width: 100%;
 }
