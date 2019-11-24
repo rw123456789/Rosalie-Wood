@@ -95,3 +95,15 @@ h7{
     text-align: center;
     width: 100%
   }
+
+  p {
+    color:#ff85d9;
+    font-family: Arial;
+    font-size: 2em;
+    text-align: bottom;
+    position: center;
+    width: 100%;
+    left: 10px;
+    bottom: 10em;
+    border: 10px;
+  }
