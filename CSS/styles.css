@@ -4,11 +4,11 @@ header {
 }
 
 
-.footer {
+.sticky {
   position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 50%;
+  left: 10px;
+  bottom: 10px;
+  width: 100%;
   background-color: red;
   color: white;
   text-align: center;
@@ -38,9 +38,9 @@ p {
     text-align: left;
     position: center;
     width: 100%;
-    left: 10px;
-    bottom: 10em;
-    border: 10px;
+    left: 1em;
+    bottom: 1em;
+    border: 1em;
   }
 
 p2{
