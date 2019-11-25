@@ -6,11 +6,10 @@ header {
 
 .sticky {
   position: fixed;
-  left: 10px;
-  bottom: 10px;
+  left: 0px;
+  bottom: 0px;
   width: 100%;
   background-color: red;
-  color: white;
   text-align: center;
 }
 
@@ -89,7 +88,7 @@ p4{     color:#ff85d9;
               }
 
 p4:hover:after {
-                        content: url(../Media/P5.png); /* no need for qoutes */
+                        content: url(../Media/HD2.png); /* no need for qoutes */
                         display: block;
                         position: absolute;
                         width: 0em;
@@ -111,3 +110,23 @@ p5:hover:after {
         left: 10px; /* change this value to one that suits you */
         top: 56px;
 }
+
+p6{
+    color:#ff85d9;
+    font-size: 10em;
+    text-align: right;
+    position: relative;
+    width: 100%;
+    right: 10px;
+    bottom: 0px;
+    border: 0px;
+              }
+
+p6:hover:after {
+                        content: url(../Media/hotdawg.png); /* no need for qoutes */
+                        display: block;
+                        position: absolute;
+                        width: 0em;
+                        left: 10px; /* change this value to one that suits you */
+                        top: 10px;
+                    }
