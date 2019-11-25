@@ -2,9 +2,16 @@ header {
     position: fixed;
     top: 0px;
 }
-footer {
-    position: fixed;
-    bottom: 10px
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 
 body{
