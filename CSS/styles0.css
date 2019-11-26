@@ -74,13 +74,13 @@ p {
     position: absolute;
     left: 0px;
     top: 0px;
+    width: 100%
 }
 
 .star{
       color:#ff85d9;
       font-family: Arial;
       font-size:100px;
-      display: block;
       position: relative;
       z-index: 10;
 }
@@ -92,7 +92,8 @@ p {
     }
 
 .star1{
-      padding-left: 70%;
+      left: 85%;
+      top: 70px;
     }
 
 .star1:hover:after {
@@ -105,22 +106,22 @@ p {
 
 .star2 {
   left: 100px;
-  bottom: 10px;
+  bottom: 50px;
 }
 
 .star3 {
   left: 400px;
-  bottom: 30px;
+  top: 90px;
 }
 
 .star4 {
   left: 650px;
-  bottom: 150px;
+  top: 105px;
 }
 
 .star5 {
   left: 800px;
-  bottom: 90px;
+  top: 90px;
 }
 
 .star2:hover:after {
