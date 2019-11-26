@@ -1,8 +1,8 @@
 header {
+    margin: 0%;
     position: fixed;
     top: 0px;
 }
-
 
 .sticky {
   position: fixed;
@@ -26,22 +26,22 @@ a {
 
 /* unvisited link */
 a:link {
-  color: red;
+  color: #ff85d9;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: blue;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: blue;
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color: #ff85d9;
 }
 
 body{
@@ -221,10 +221,3 @@ p9:hover:after {
                 left: 10px; /* change this value to one that suits you */
                 top: 0px;
                 }
-
-.instagram{
-            color:#ff85d9;
-            font-family: Arial;
-            font-size: 600px;
-            position:fixed;
-            }
