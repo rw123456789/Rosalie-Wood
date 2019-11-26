@@ -24,6 +24,26 @@ a {
   border: 1em;
 }
 
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 body{
   background-color: #f64d33;
   text-align: center;
@@ -201,3 +221,10 @@ p9:hover:after {
                 left: 10px; /* change this value to one that suits you */
                 top: 0px;
                 }
+
+.instagram{
+            color:#ff85d9;
+            font-family: Arial;
+            font-size: 600px;
+            position:fixed;
+            }
