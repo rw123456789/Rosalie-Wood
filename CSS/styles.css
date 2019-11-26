@@ -83,6 +83,14 @@ p {
     border: 0em;
   }
 
+  div.relative {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
 p2{
       color:#ff85d9;
       font-family: Arial;
@@ -104,10 +112,10 @@ p3{     color:#ff85d9;
         text-align: left;
         position: relative;
         width: 100%;
-        left: 200px;
+        left: -300px;
         bottom: 0em;
         border: 0px;
-        top: 200px;
+        top: 10px;
     }
 
 p3:hover:after {
