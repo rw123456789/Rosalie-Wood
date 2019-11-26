@@ -1,7 +1,7 @@
 header {
     margin: 0%;
     position: fixed;
-    top: 0px;
+    top: px;
 }
 
 body{
@@ -79,17 +79,10 @@ p {
     position: relative;
     width: 100%;
     left: 0em;
+    top: 0px
     bottom: 0em;
     border: 0em;
   }
-
-  div.relative {
-  position: relative;
-  bottom: 0;
-  right: 0;
-  width: 300px;
-  border: 3px solid #73AD21;
-}
 
 p2{
       color:#ff85d9;
@@ -115,7 +108,7 @@ p3{     color:#ff85d9;
         left: -300px;
         bottom: 0em;
         border: 0px;
-        top: 10px;
+        top: 5px;
     }
 
 p3:hover:after {
@@ -123,8 +116,8 @@ p3:hover:after {
               display: block;
               position: absolute;
               width: 0em;
-              left: 0px; /* change this value to one that suits you */
-              top: 0px;
+              left: 2px; /* change this value to one that suits you */
+              top: 50px;
           }
 
 p4{     color:#ff85d9;
@@ -154,9 +147,9 @@ p5{
     }
 
 p5:hover:after {
-        content: url(../Media/profile2.png); /* no need for qoutes */
+        content:
         display: block;
-        position: relative;
+        position: absolute;
         width: 2em;
         left: 1000px; /* change this value to one that suits you */
         top: 1000px;
