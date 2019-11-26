@@ -1,11 +1,8 @@
 body{
   background-color: #f64d33;
-  text-align: center;
   width: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  position: absolute;
-}
+  position:relative;
+ }
 
 .sticky {
   position: fixed;
@@ -18,12 +15,6 @@ body{
 
 a {
   color:#ff85d9;
-  font-family: Arial;
-  font-size: 2em;
-  text-align: left;
-  position: left;
-  width: 100%;
-  left: 10px;
 }
 
 /* mouse over link */
@@ -36,6 +27,13 @@ a:active {
   color: #ff85d9;
 }
 
+.menu a {
+  font-size: 2em;
+}
+  .menu a:hover {
+    color: blue;
+    text-decoration: none;
+  }
 
 a.instagram {
     font-size: 100px;
@@ -44,15 +42,6 @@ a.instagram {
     border: 10px;
     top: 500px;
     left: 1100px
-}
-
-body{
-  background-color: #f64d33;
-  text-align: center;
-  width: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  position: absolute;
 }
 
 h4{
