@@ -130,3 +130,19 @@ p6:hover:after {
                         left: 10px; /* change this value to one that suits you */
                         top: 10px;
                     }
+
+p7{
+                          color:#ff85d9;
+                          font-family: Arial;
+                          font-size: 600px;
+                          position:fixed;
+                        }
+
+p7:hover:after {
+                            content: url(../Media/.png); /* no need for qoutes */
+                            display: block;
+                            position: absolute;
+                            width: 0em;
+                            left: 10px; /* change this value to one that suits you */
+                            top: 10px;
+                        }
