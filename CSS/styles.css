@@ -4,12 +4,22 @@ header {
     top: 0px;
 }
 
+body{
+  background-color: #f64d33;
+  text-align: center;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: absolute;
+}
+
 .sticky {
   position: fixed;
   left: 0px;
   bottom: 0px;
   width: 100%;
   text-align: left;
+  background-color: #f64d33;
 }
 
 a {
@@ -41,7 +51,7 @@ a.instagram {
     bottom: 10em;
     border: 10px;
     top: 500px;
-    left: 1100px 
+    left: 1100px
 }
 
 body{
@@ -66,11 +76,11 @@ p {
     font-family: Arial;
     font-size: 2em;
     text-align: left;
-    position: center;
+    position: relative;
     width: 100%;
-    left: 1em;
-    bottom: 1em;
-    border: 1em;
+    left: 0em;
+    bottom: 0em;
+    border: 0em;
   }
 
 p2{
@@ -92,12 +102,12 @@ p2:hover:after {
 p3{     color:#ff85d9;
         font-size: 10em;
         text-align: left;
-        position: center;
+        position: relative;
         width: 100%;
-        left: 10px;
-        bottom: 10em;
-        border: 10px;
-        top: 300px;
+        left: 200px;
+        bottom: 0em;
+        border: 0px;
+        top: 200px;
     }
 
 p3:hover:after {
@@ -105,8 +115,8 @@ p3:hover:after {
               display: block;
               position: absolute;
               width: 0em;
-              left: 10px; /* change this value to one that suits you */
-              top: 10px;
+              left: 0px; /* change this value to one that suits you */
+              top: 0px;
           }
 
 p4{     color:#ff85d9;
@@ -125,8 +135,8 @@ p4:hover:after {
                         display: block;
                         position: absolute;
                         width: 0em;
-                        left: 10px; /* change this value to one that suits you */
-                        top: 10px;
+                        left: 0px; /* change this value to one that suits you */
+                        top: 0px;
                     }
 p5{
       color:#ff85d9;
@@ -150,7 +160,7 @@ p6{
     text-align: right;
     position: relative;
     width: 100%;
-    right: 10px;
+    right: 50px;
     bottom: 0px;
     border: 0px;
               }
