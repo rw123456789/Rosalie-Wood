@@ -24,16 +24,6 @@ a {
   border: 1em;
 }
 
-/* unvisited link */
-a:link {
-  color: #ff85d9;
-}
-
-/* visited link */
-a:visited {
-  color: blue;
-}
-
 /* mouse over link */
 a:hover {
   color: blue;
@@ -44,6 +34,10 @@ a:active {
   color: #ff85d9;
 }
 
+
+a.instagram {
+    font-size: 600px;
+}
 body{
   background-color: #f64d33;
   text-align: center;
