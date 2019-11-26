@@ -36,12 +36,13 @@ a:active {
   }
 
 a.instagram {
-    font-size: 100px;
+    font-size: 250px;
     position: absolute;
     bottom: 10em;
+    text-decoration: none;
     border: 10px;
-    top: 500px;
-    left: 1100px
+    top: 400px;
+    left: 1000px
 }
 
 h4{
@@ -65,151 +66,83 @@ p {
     border: 0em;
   }
 
-p2{
-      color:#ff85d9;
-      font-family: Arial;
-      font-size: 600px;
-      position:fixed;
-    }
-
-p2:hover:after {
-        content: url(../Media/profile2.png); /* no need for qoutes */
-        display: block;
-        position: absolute;
-        width: 0em;
-        left: 10px; /* change this value to one that suits you */
-        top: 10px;
-    }
-
-p3{     color:#ff85d9;
-        font-size: 10em;
-        text-align: left;
-        position: relative;
-        width: 100%;
-        left: -300px;
-        bottom: 0em;
-        border: 0px;
-        top: 5px;
-    }
-
-p3:hover:after {
-              content: url(../Media/PROBACKTOR3.png); /* no need for qoutes */
-              display: block;
-              position: absolute;
-              width: 0em;
-              left: 2px; /* change this value to one that suits you */
-              top: 50px;
-          }
-
-p4{     color:#ff85d9;
-                  font-size: 10em;
-                  text-align: right;
-                  position: relative;
-                  width: 100%;
-                  right: 240px;
-                  bottom: 0px;
-                  border: 0px;
-                  top: 100px;
-              }
-
-p4:hover:after {
-                        content: url(../Media/HD2.png); /* no need for qoutes */
-                        display: block;
-                        position: absolute;
-                        width: 0em;
-                        left: 0px; /* change this value to one that suits you */
-                        top: 0px;
-                    }
-p5{
-      color:#ff85d9;
-      font-family: Arial;
-      font-size: 600px;
-      position:relative;
-    }
-
-p5:hover:after {
-        content:
-        display: block;
-        position: absolute;
-        width: 2em;
-        left: 1000px; /* change this value to one that suits you */
-        top: 1000px;
+.stars-container {
+    position: relative;
 }
 
-p6{
-    color:#ff85d9;
-    font-size: 10em;
-    text-align: right;
-    position: relative;
-    width: 100%;
-    right: 50px;
-    bottom: 0px;
-    border: 0px;
-              }
+.stars {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
 
-p6:hover:after {
-                        content: url(../Media/hotdawg.png); /* no need for qoutes */
-                        display: block;
-                        position: absolute;
-                        width: 0em;
-                        left: 10px; /* change this value to one that suits you */
-                        top: 10px;
-                    }
-
-p7{
-                          color:#ff85d9;
-                          font-family: Arial;
-                          font-size: 600px;
-                          position:fixed;
-                        }
-
-p7:hover:after {
-                            content: url(../Media/.png); /* no need for qoutes */
-                            display: block;
-                            position: absolute;
-                            width: 0em;
-                            left: 10px; /* change this value to one that suits you */
-                            top: 10px;
-                        }
-
-p8{
-    color:#ff85d9;
-    font-size: 10em;
-    text-align: right;
-    position: relative;
-    width: 50%;
-    top:250px;
-    right: -300px;
-    bottom: 10px;
-    border: 0px;
+.star{
+      color:#ff85d9;
+      font-family: Arial;
+      font-size:100px;
+      display: block;
+      position: relative;
+      z-index: 10;
+}
+.star:hover:after {
+        position: absolute;
+        width: 0em;
+        display: block;
+        z-index: 100;
     }
 
-p8:hover:after {
-                content: url(../Media/H3.png); /* no need for qoutes */
-                display: block;
-                position: absolute;
-                width: 0em;
-                left: 10px; /* change this value to one that suits you */
-                top: 0px;
-              }
-
-p9{
-    color:#ff85d9;
-    font-size: 10em;
-    text-align: right;
-    position: relative;
-    width: 50%;
-    top:250px;
-    right: 200px;
-    bottom: 10px;
-    border: 0px;
+.star1{
+      padding-left: 70%;
     }
 
-p9:hover:after {
-                content: url(../Media/FI.png); /* no need for qoutes */
-                display: block;
-                position: absolute;
-                width: 0em;
-                left: 10px; /* change this value to one that suits you */
-                top: 0px;
-                }
+.star1:hover:after {
+        content: url(../Media/profile2.png); /* no need for qoutes */
+        position: absolute;
+        width: 0em;
+        left: 50%; /* change this value to one that suits you */
+        top: -400px;
+    }
+
+.star2 {
+  left: 100px;
+  bottom: 10px;
+}
+
+.star3 {
+  left: 400px;
+  bottom: 30px;
+}
+
+.star4 {
+  left: 650px;
+  bottom: 150px;
+}
+
+.star5 {
+  left: 800px;
+  bottom: 90px;
+}
+
+.star2:hover:after {
+  content: url(../Media/PROBACKTOR3.png); /* no need for qoutes */
+  left: 2px; /* change this value to one that suits you */
+  top: 50px;
+}
+
+.star3:hover:after {
+  content: url(../Media/H3.png); /* no need for qoutes */
+  left: 2px; /* change this value to one that suits you */
+  top: 50px;
+}
+
+.star4:hover:after {
+  content: url(../Media/HD2.png); /* no need for qoutes */
+  left: 2px; /* change this value to one that suits you */
+  top: 50px;
+}
+
+.star5:hover:after {
+  content: url(../Media/FI.png); /* no need for qoutes */
+  left: 2px; /* change this value to one that suits you */
+  top: 50px;
+}
