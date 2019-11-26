@@ -9,7 +9,6 @@ header {
   left: 0px;
   bottom: 0px;
   width: 100%;
-  background-color: red;
   text-align: center;
 }
 
@@ -66,6 +65,7 @@ p3{     color:#ff85d9;
         left: 10px;
         bottom: 10em;
         border: 10px;
+        top: 50px;
     }
 
 p3:hover:after {
@@ -74,7 +74,7 @@ p3:hover:after {
               position: absolute;
               width: 0em;
               left: 10px; /* change this value to one that suits you */
-              top: 10px;
+              top: 50px;
           }
 
 p4{     color:#ff85d9;
@@ -85,6 +85,7 @@ p4{     color:#ff85d9;
                   right: 10px;
                   bottom: 0px;
                   border: 0px;
+                  top: 100px;
               }
 
 p4:hover:after {
@@ -146,3 +147,23 @@ p7:hover:after {
                             left: 10px; /* change this value to one that suits you */
                             top: 10px;
                         }
+
+  p8{     color:#ff85d9;
+                                          font-size: 10em;
+                                          text-align: right;
+                                          position: relative;
+                                          width: 50%;
+                                          top:250px;
+                                          right: -300px;
+                                          bottom: 0px;
+                                          border: 0px;
+                                      }
+
+p8:hover:after {
+                content: url(../Media/H3.png); /* no need for qoutes */
+                display: block;
+                position: absolute;
+                width: 0em;
+                left: 10px; /* change this value to one that suits you */
+                top: 10px;
+                                            }
