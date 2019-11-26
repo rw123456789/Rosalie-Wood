@@ -9,7 +9,19 @@ header {
   left: 0px;
   bottom: 0px;
   width: 100%;
-  text-align: center;
+  text-align: left;
+}
+
+a {
+  color:#ff85d9;
+  font-family: Arial;
+  font-size: 2em;
+  text-align: left;
+  position: left;
+  width: 100%;
+  left: 10px;
+  bottom: 1em;
+  border: 1em;
 }
 
 body{
@@ -100,7 +112,7 @@ p5{
       color:#ff85d9;
       font-family: Arial;
       font-size: 600px;
-      position:fixed;
+      position:relative;
     }
 
 p5:hover:after {
@@ -108,8 +120,8 @@ p5:hover:after {
         display: block;
         position: relative;
         width: 2em;
-        left: 500px; /* change this value to one that suits you */
-        top: 500px;
+        left: 1000px; /* change this value to one that suits you */
+        top: 1000px;
 }
 
 p6{
@@ -156,7 +168,7 @@ p8{
     width: 50%;
     top:250px;
     right: -300px;
-    bottom: 0px;
+    bottom: 10px;
     border: 0px;
     }
 
@@ -168,4 +180,24 @@ p8:hover:after {
                 left: 10px; /* change this value to one that suits you */
                 top: 0px;
               }
-                                            }
+
+p9{
+    color:#ff85d9;
+    font-size: 10em;
+    text-align: right;
+    position: relative;
+    width: 50%;
+    top:250px;
+    right: 200px;
+    bottom: 10px;
+    border: 0px;
+    }
+
+p9:hover:after {
+                content: url(../Media/FI.png); /* no need for qoutes */
+                display: block;
+                position: absolute;
+                width: 0em;
+                left: 10px; /* change this value to one that suits you */
+                top: 0px;
+                }
