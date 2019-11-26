@@ -36,8 +36,14 @@ a:active {
 
 
 a.instagram {
-    font-size: 600px;
+    font-size: 100px;
+    position: absolute;
+    bottom: 10em;
+    border: 10px;
+    top: 500px;
+    left: 1100px 
 }
+
 body{
   background-color: #f64d33;
   text-align: center;
