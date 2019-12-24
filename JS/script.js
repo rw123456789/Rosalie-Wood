@@ -11,3 +11,7 @@ function foo(){
 $(document).ready(function() {
   caller.on('mouseenter', foo);
   caller.on('click', function(){
+  alert('clicked!');
+  });
+
+});
