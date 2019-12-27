@@ -148,6 +148,13 @@ p {
   top: 50px;
 }
 
+.touchMeNot{
+  position:absolute;
+  border: 1px solid red;
+  height:50px;
+  width:50px;
+}
+
 div#box {
   width: 100px;
   height: 100px;
