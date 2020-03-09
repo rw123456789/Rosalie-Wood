@@ -13,6 +13,6 @@ $(document).ready(function() {
   });
 
   touchMeNot.on("click", function() {
-//    alert("clicked!");
+    alert("clicked!");
   });
 });
